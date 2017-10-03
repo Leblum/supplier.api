@@ -1,0 +1,17 @@
+{
+    "name": "leblum.supplier.api",
+    "database": {
+      "mongoConnectionString": "mongodb://root:asdf897asdifohakjsf9v8advoidgfuoasd9@ds015919.mlab.com:15919/leblum-supplier-development"
+    },
+    "ampq":{
+        "ampqConnectionString": "amqp://wkaxkarj:NAsD1ISNCESHMmVlK9Mch6IcBjapIBYn@puma.rmq.cloudamqp.com/wkaxkarj"
+    },
+    "systemUserPassword": "ads987sadgydfg76e9uhnsj8nhe9f87",
+    "jwtSecretToken": "asdf97a9s8d7baodfbhoda8f7g9adf8asj",
+    "returnCallStackOnError": true,
+    "isConsoleLoggingActive": true,
+    "mandrillApiKey": "EEQCHdKzdFHYo4VNLdb3nw", // this is the test key for right now... switch to real
+    "clientDistFolder": "dev",
+    "identityApiEndpoint": "https://dev.identity.leblum.io/api/v1",
+    "SupplierImageBucketName": "dev-supplier-api-images"
+}
